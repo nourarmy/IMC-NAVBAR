@@ -30,15 +30,15 @@ nav {
   font-weight: bold;
   margin-right: 10px;
       .blue {
-        color: #3498db; /* Blue */
+        color: #3498db; 
       }
 
       .red {
-        color: #e74c3c; /* Red */
+        color: #e74c3c; 
       }
 
       .yellow {
-        color: #f1c40f; /* Yellow */
+        color: #f1c40f; 
       }
   
 }
@@ -66,6 +66,7 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  font-weight:bold;
   
   
 }
@@ -74,7 +75,7 @@ a.active,
 a:hover {
   background: #1b9bff;
   transition: 0.5s;
-  opacity: 0.5;
+  opacity: 0.8;
   
 }
 
@@ -105,7 +106,8 @@ a:hover {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background: #55da33b2;
+;
     top: 80px;
     left: -100%;
     text-align: center;
